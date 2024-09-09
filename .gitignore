@@ -6,6 +6,6 @@ CRITICAL_ERROR.txt
 logs/
 .cache/*
 
-.venv/
+.nmspy_venv/
 build/*
 NMS.py.egg-info/*
