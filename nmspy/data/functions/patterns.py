@@ -24,4 +24,11 @@ FUNC_PATTERNS: dict[str, Union[str, dict[str, str]]] = {
         "cGcPlayerVehicleOwnership *": "40 53 48 83 EC 20 48 8B 05 ?? ?? ?? ?? 48 63 98",  # 0x4DA610
         "cGcPlayerVehicleOwnership *, eVehicleType": "40 53 48 83 EC 20 48 8B 05 ?? ?? ?? ?? 48 63 DA 48",  # 0x4DA660
     },
+    "Engine::GetNodeTransMats": {
+        "TkHandle, cTkMatrix34 *, cTkMatrix34 *": "40 56 48 83 EC 20 44 8B D1 44 8B C9 41 C1 EA 12 41 81 E1 FF FF 03 00 49 8B F0 4C 8B DA",
+    },
+    "Engine::GetNodeAbsoluteTransMatrix": "40 56 48 83 EC 20 44 8B C9",
+    "Engine::ShiftAllTransformsForNode": "40 53 48 83 EC 20 44 8B D1",
+    "Engine::SetNodeActivation": "48 89 5C 24 08 44 8B C9 44 8B C1 41 C1 E9 12 41 81 E0 FF FF 03 00 0F",
+    "cGcSolarSystem::GetName": "48 89 5C 24 08 48 89 7C 24 10 55 48 8D AC 24 D0",
 }
