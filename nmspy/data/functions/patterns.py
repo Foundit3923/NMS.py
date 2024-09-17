@@ -31,4 +31,5 @@ FUNC_PATTERNS: dict[str, Union[str, dict[str, str]]] = {
     "Engine::ShiftAllTransformsForNode": "40 53 48 83 EC 20 44 8B D1",
     "Engine::SetNodeActivation": "48 89 5C 24 08 44 8B C9 44 8B C1 41 C1 E9 12 41 81 E0 FF FF 03 00 0F",
     "cGcSolarSystem::GetName": "48 89 5C 24 08 48 89 7C 24 10 55 48 8D AC 24 D0",
+    "cTkSystem::GameHasFocus": "48 83 EC 28 48 8B 89 90",
 }

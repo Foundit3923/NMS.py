@@ -289171,11 +289171,9 @@ FUNC_CALL_SIGS: dict[str, Union[FUNCDEF, dict[str, FUNCDEF]]] = {
         ]
     ),
     "cTkSystem::GameHasFocus": FUNCDEF(
-        restype=ctypes.c_ubyte,  # bool
+        restype=ctypes.c_uint32,  # bool
         argtypes=[
             ctypes.c_ulonglong,  # cTkSystem *
-            ctypes.c_int64,  # __int64
-            ctypes.c_uint16,  # unsigned __int16
         ]
     ),
     "cTkSystem::GenerateSystemSeed": FUNCDEF(
